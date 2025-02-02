@@ -1,0 +1,1 @@
+In React Native, using a ref to access a component's properties or methods might lead to unexpected behavior if the ref is accessed before the component has mounted or after it has unmounted. This often results in `null` or undefined values, causing errors or unexpected behavior.
